@@ -1,6 +1,6 @@
 # lita-pagerduty-oncall
 
-TODO: Add a description of the plugin.
+PagerDuty (http://pagerduty.com) handler for checking who's on call.
 
 ## Installation
 
@@ -12,11 +12,36 @@ gem "lita-pagerduty-oncall"
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+Add the following variables to your Lita config file:
+
+``` ruby
+config.handlers.pagerduty-oncall.api_key   = ''
+config.handlers.pagerduty-oncall.subdomain = ''
+```
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+```
+@BotName oncall
+```
+
+Exmaple:
+
+```
+Testing:
+  1: Paul Paulison (static)
+
+Chef Client Goalie:
+  1: Bob Smith (02/02/15 08:00 - 02/09/15 08:00 UTC)
+
+IT Support:
+  -- Empty Rotation --
+
+Operations:
+  1: Josh Johnson (02/02/15 17:00 - 02/09/15 17:00 UTC)
+  2: Ian Iradium (02/02/15 16:00 - 02/09/15 16:00 UTC)
+  3: Stephen Summers (02/03/15 02:00 - 02/06/15 02:00 UTC)
+```
 
 ## License
 
