@@ -41,7 +41,7 @@ Exmaple output seen in room:
 Testing:
   1: Paul Paulison (static)
 
-Chef Client Goalie:
+Dev Escalation:
   1: Bob Smith (02/02/15 08:00 - 02/09/15 08:00 UTC)
 
 IT Support:
