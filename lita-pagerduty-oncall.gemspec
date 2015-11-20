@@ -3,9 +3,9 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.1"
   spec.authors       = ["Ben Rockwood"]
   spec.email         = ["benr@joyent.com"]
-  spec.description   = %q{TODO: Add a description}
-  spec.summary       = %q{TODO: Add a summary}
-  spec.homepage      = "TODO: Add a homepage"
+  spec.description   = 'lita plugin for pagerduty oncall'
+  spec.summary       = 'lita plugin for pagerduty oncall'
+  spec.homepage      = "http://www.chef.io"
   spec.license       = "MIT"
   spec.metadata      = { "lita_plugin_type" => "handler" }
 
